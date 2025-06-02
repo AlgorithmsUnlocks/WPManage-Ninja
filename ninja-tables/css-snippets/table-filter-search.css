@@ -1,0 +1,6 @@
+/* Please make sure that you have change the NI_ID to actual table ID */
+#footable_parent_NI_ID table tbody,
+#footable_parent_NI_ID table tfoot,
+#footable_parent_NI_ID table .footable-header {
+    display: none;
+}
