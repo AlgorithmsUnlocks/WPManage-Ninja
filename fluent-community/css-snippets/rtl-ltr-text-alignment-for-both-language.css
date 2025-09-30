@@ -1,0 +1,27 @@
+:where(.fluent_comminity_body, #fluent_comminity_body) :is(
+  [class*="all_feeds_holder"],
+  [class*="feed_body"],
+  [class*="feed_title_heading"],
+  [class*="feed_title_heading a"],
+  [class*="editor"],
+  [contenteditable="true"]
+){
+    direction: auto !important;
+    unicode-bidi: plaintext !important;
+    text-align: start !important;
+    white-space: pre-wrap !important;
+}
+
+:where(.fluent_comminity_body, #fluent_comminity_body) :is(
+  [class*="feed_texts"] p,
+  [class*="editor"] p,
+  [contenteditable="true"] p
+) {
+    direction: ltr;
+    unicode-bidi: plaintext !important;
+    text-align: start !important;
+}
+
+.feed_md_content p{
+    margin-bottom: 0!important;
+}
