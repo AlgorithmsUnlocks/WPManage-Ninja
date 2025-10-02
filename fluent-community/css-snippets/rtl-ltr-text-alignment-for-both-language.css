@@ -1,8 +1,9 @@
-:where(.fluent_comminity_body, #fluent_comminity_body) :is(
+:where(.fluent_comminity_body, #fluent_comminity_body, .fcom_feed_modal) :is(
   [class*="all_feeds_holder"],
   [class*="feed_body"],
   [class*="feed_title_heading"],
   [class*="feed_title_heading a"],
+  [class*="comment_text"]
   [class*="editor"],
   [contenteditable="true"]
 ){
@@ -12,8 +13,9 @@
     white-space: pre-wrap !important;
 }
 
-:where(.fluent_comminity_body, #fluent_comminity_body) :is(
+:where(.fluent_comminity_body, #fluent_comminity_body, .fcom_feed_modal) :is(
   [class*="feed_texts"] p,
+  [class*="comment_text"] p,
   [class*="editor"] p,
   [contenteditable="true"] p
 ) {
