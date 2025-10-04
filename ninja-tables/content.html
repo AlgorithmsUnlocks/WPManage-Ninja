@@ -1,0 +1,6 @@
+=IF("{{row.payment_status}}"="pending", IF(LEN("{{row.payment_proof}}")>0, "<a href='{{row.payment_proof}}'>Download a payment proof</a>", ""), "")
+
+=IF(AND("{{row.payment_status}}"="pending","{{row.payment_proof}}"=""),"<a href='#'> Upload a payment proof</a>","")
+
+=IF("{{row.payment_status}}"="paid","","{{row.payment_proof}}")
+=IF("{{row.payment_status}}"="paid","","{{row.recipt}}")
