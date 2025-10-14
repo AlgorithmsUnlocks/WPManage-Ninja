@@ -1,0 +1,91 @@
+.fcal_calendar_inner .fcal_side .fcal_author_avatar img {
+    height: 10rem!important;
+    width: 10rem!important;
+}
+.fcal_calendar_inner .fcal_side .fcal_author_name {
+    font-size: 17px!important;
+}
+
+.fcal_calendar_inner .fcal_side .fcal_slot_heading {
+    font-size: 24px!important;
+}
+
+.fcal_calendar_inner .fcal_icon_item {
+    font-size: 16px!important
+}
+
+.fcal_calendar_inner .fcal_icon_item .fcal_multi_duration .fcal_duration {
+    font-size: 16px!important;
+}
+
+.fcal_calendar_inner .fcal_icon_item.fcal_icon_item svg {
+    height: 2rem!important;
+    width: 2rem!important;
+}
+
+.fcal_calendar_inner .fcal_icon_item img {
+    height: 2rem!important;
+    width: 2rem!important;
+}
+
+.fcal_calendar_inner .fcal_side .fcal_slot_description p {
+    font-size: 16px!important;
+}
+
+.calendar.svelte-jvr8qp {
+    gap: 2rem!important;
+}
+
+.fcal_calendar_inner .fcal_date_wrapper .calendar .day.day-enabled {
+    padding: 1.5rem 2rem;
+}
+
+.fcal_calendar_inner .fcal_date_wrapper .fcal_day_picker .fcal_timezone_select label {
+    font-size: 16px!important;
+}
+
+.fcal_calendar_inner .fcal_date_wrapper .fcal_day_picker .fcal_timezone_select .selected-item.svelte-82qwg8 {
+    font-size: 16px!important;
+}
+
+.fcal_slot_picker .fcal_slot_picker_header .fcal_slot_date_info {
+    font-size: 16px!important;
+}
+
+.fcal_slot_picker.is_active {
+    padding-left: 1rem!important;
+}
+
+.fcal_slot_picker .fcal_slot_picker_header .fcal_slot_picker_header_action {}
+
+.fcal_calendar_inner.fcal_on_md.fcal_day_selected .fcal_slot_picker .fcal_spot_lists .fcal_spot .fcal_spot_name {
+    font-size: 16px!important;
+}
+
+.fcal_calendar_inner.fcal_on_md.fcal_day_selected .fcal_slot_picker .fcal_spot_lists .fcal_spot .fcal_spot_confirm {
+    font-size: 16px!important;
+}
+
+.fcal_calendar_inner .fcal_date_wrapper .fcal_date_event_details .fcal_date_event_details_header h3 {
+    font-size: 16px!important;
+}
+
+.fcal_booking_form_wrap .fcal_booking_form .fcal_form_item .fcal_input_content .fcal_input_label {
+    font-size: 16px!important;
+}
+
+.fcal_booking_form_wrap .fcal_booking_form .fcal_form_item .fcal_input_content input, .fcal_booking_form_wrap .fcal_booking_form .fcal_form_item .fcal_input_content select, .fcal_booking_form_wrap .fcal_booking_form .fcal_form_item .fcal_input_content textarea {
+    font-size: 16px!important;
+}
+
+.fcal_booking_form_wrap .fcal_booking_form .fcal_form_item .fcal_input_content .fcal_custom_checkbox.fcal_terms_conditions * {
+    font-size: 16px!important;
+}
+
+.fcal_booking_form_wrap .fcal_booking_form .fcal_form_item .fcal_input_content .fcal_custom_checkbox .checkbox_mark {
+    margin-top: .3rem!important;
+}
+
+.fcal_booking_form_wrap .fcal_booking_form .fcal_form_item button {
+    font-size: 16px!important;
+}
